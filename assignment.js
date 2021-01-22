@@ -4,8 +4,8 @@
 
 
 function kilometerToMeter (kiloMeter){
-    var Meter = kiloMeter * 1000;
-    return Meter;
+    var meter = kiloMeter * 1000;
+    return meter;
 }
 var distance = kilometerToMeter(7);
 console.log (distance);
@@ -62,7 +62,7 @@ console.log ( total );
 function megaFriend(names){
     var longestName = names[0].length ;
     var answar = names[0];
-    for (var i= 0 ; i <names.length; i++){
+    for (var i = 0 ; i <names.length; i++){
         var magaName = names[i].length;
         if (magaName > longestName){
             answar = names[i];
